@@ -67,8 +67,8 @@
 ||https://tv.sohu.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||http://acfun.cn/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||https://acfun.cn/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
-||http://bilibili.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
-||https://bilibili.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
+!||http://bilibili.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
+!||https://bilibili.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||http://pptv.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||https://pptv.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||http://vip.1905.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
