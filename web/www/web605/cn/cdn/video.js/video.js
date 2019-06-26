@@ -4,66 +4,38 @@ var qq = '<span style="display:block;float:left;width:5vw;height:5vw;font-size:2
 
 var nothing = '<span style="display:block;float:left;width:5vw;height:5vw;font-size:2.5vw;color:#fff;line-height:5vw;text-align:center;border-radius:100%;box-shadow:0px 0px 3px #a9a9a9;background:transparent;margin:3.78vw 2.1vw;">综</span>'
 
-/**
-var apis = [{
-name:nothing + "百域阁",url:"http://api.baiyug.cn/vip/index.php?url=",title:"转圈圈就换线路"
-},{
-name:qq + "vParse",url:"https://api.vparse.org/?url=",title:"支持腾讯"
-},{
-name:qq + "猫云",url:"https://jx.maoyun.tv/index.php?id=",title:"支持腾讯"
-},{
-name:youku + "搜你妹",url:"http://www.sonimei.cn/?url=",title:"综合接口"
-}, {
-name:nothing + "噗噗电影",url:"http://pupudy.com/play?make=url&id=",title:"综合接口，破解全网"
-},{
-name:youku + "抢先影院",url:"http://www.qxyingyuan.vip/play?make=url&id=",title:"据说优酷比较稳定"
-}, {
-name:nothing + "酷绘",url:"http://appapi.svipv.kuuhui.com/svipjx/liulanqichajian/browserplugin/qhjx/qhjx.php?id=",title:"综合接口"
-}, {
-name:nothing + "旋风解析",url:"http://api.xfsub.com/index.php?url=",title:"1905优先使用"
-},{
-name:nothing + "石头解析",url:"https://jiexi.071811.cc/jx.php?url=",title:"手动点播放"
-},{
-name:nothing + "无名小站",url:"http://www.sfsft.com/admin.php?url=",title:"无名小站同源"
-}, {
-name:nothing + "VIP看看",url:"http://q.z.vip.totv.72du.com/?url=",title:"更换线路成功率会提高"
-},{
-name:nothing + "ODFLV",url:"http://aikan-tv.com/?url=",title:"不稳定，广告过滤软件可能有影响"
-},{
-name:nothing + "163人",url:"http://jx.api.163ren.com/vod.php?url=",title:"偶尔支持腾讯"
-},{
-name:nothing + "CKFLV",url:"http://www.0335haibo.com/tong.php?url=",title:"CKFLV云,部分站点不支持"
-},{
-name:nothing + "无名小站2",url:"http://www.wmxz.wang/video.php?url=",title:"转圈圈就换线路"
-},{
-name:nothing + "眼睛会下雨",url:"http://www.vipjiexi.com/yun.php?url=",title:"www.vipjiexi.com"
-},{
-name:youku + "1008影视",url:"http://api.1008net.com/v.php?url=",title:"据说可以看布袋游戏视频"
-}, {
-name:nothing + "人人发布",url:"http://v.renrenfabu.com/jiexi.php?url=",title:"综合，多线路"
-} ];
-**/
-
-var apis = [{
-name:youku + "搜你妹",url:"http://www.sonimei.cn/?url=",title:"综合接口"
-},{
-name:nothing + "石头解析",url:"https://jiexi.071811.cc/jx.php?url=",title:"手动点播放"
-},{
-name:nothing + "无名小站",url:"http://www.sfsft.com/admin.php?url=",title:"无名小站同源"
-},{
-name:nothing + "VIP看看",url:"http://q.z.vip.totv.72du.com/?url=",title:"更换线路成功率会提高"
-},{
-name:nothing + "ODFLV",url:"http://aikan-tv.com/?url=",title:"不稳定，广告过滤软件可能有影响"
-},{
-name:nothing + "163人",url:"http://jx.api.163ren.com/vod.php?url=",title:"偶尔支持腾讯"
-},{
-name:nothing + "无名小站2",url:"http://www.wmxz.wang/video.php?url=",title:"转圈圈就换线路"
-},{
-name:nothing + "眼睛会下雨",url:"http://www.vipjiexi.com/yun.php?url=",title:"www.vipjiexi.com"
-},{
-name:nothing + "人人发布",url:"http://v.renrenfabu.com/jiexi.php?url=",title:"综合，多线路"
-}];
-
+var apis = [
+	{
+		name:youku + "搜你妹",url:"http://www.sonimei.cn/?url=",title:"综合接口"
+	},
+	{
+		name:nothing + "石头解析",url:"https://jiexi.071811.cc/jx.php?url=",title:"手动点播放"
+	},
+	{
+		name:nothing + "无名小站",url:"http://www.sfsft.com/admin.php?url=",title:"无名小站同源"
+	},
+	{
+		name:nothing + "VIP看看",url:"http://q.z.vip.totv.72du.com/?url=",title:"更换线路成功率会提高"
+	},
+	{
+		name:nothing + "ODFLV",url:"http://aikan-tv.com/?url=",title:"不稳定，广告过滤软件可能有影响"
+	},
+	{
+		name:nothing + "163人",url:"http://jx.api.163ren.com/vod.php?url=",title:"偶尔支持腾讯"
+	},
+	{
+		name:nothing + "无名小站2",url:"http://www.wmxz.wang/video.php?url=",title:"转圈圈就换线路"
+	},
+	{
+		name:nothing + "眼睛会下雨",url:"http://www.vipjiexi.com/yun.php?url=",title:"www.vipjiexi.com"
+	},
+	{
+		name:nothing + "人人发布",url:"http://v.renrenfabu.com/jiexi.php?url=",title:"综合，多线路"
+	},
+	{
+		name:nothing + "影视解析",url:"https://chinese-elements.com/static/v.html?zwx=",title:"综合，多线路"
+	}
+];
 //添加链接
 function createSelect (apis) {
 	var myul = document.createElement("ul");
@@ -108,10 +80,6 @@ function createMenu(){
 	}
 	document.body.appendChild(myBtn);
 }
-/*document.addEventListener("DOMContentLoaded",function () {
-	createMenu();
-	createSelect(apis);
-});*/
 setTimeout(function() {
 	if(location.href.match(".iqiyi.com") || location.href.match(".youku.com") || location.href.match(".le.com") || location.href.match(".letv.com") || location.href.match("v.qq.com") || location.href.match(".tudou.com") || location.href.match(".mgtv.com") || location.href.match("film.sohu.com") || location.href.match("tv.sohu.com") || location.href.match(".acfun.cn") || location.href.match(".bilibili.com") || location.href.match(".pptv.com") || location.href.match("vip.1905.com") || location.href.match(".yinyuetai.com") || location.href.match(".fun.tv") || location.href.match(".56.com") || location.href.match(".wasu.cn")) {
 		createMenu();
