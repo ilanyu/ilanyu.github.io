@@ -84,3 +84,5 @@
 ||http://s6.pandownload.com/*$s@"ws://" + @@
 ||http://pos.baidu.com/
 ||https://pos.baidu.com/
+||http://dj.1688.com/
+||https://dj.1688.com/
