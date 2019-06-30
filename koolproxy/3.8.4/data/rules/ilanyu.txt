@@ -82,3 +82,5 @@
 ||http://wasu.cn/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||https://wasu.cn/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||http://s6.pandownload.com/*$s@"ws://" + @@
+||http://pos.baidu.com/
+||https://pos.baidu.com/
