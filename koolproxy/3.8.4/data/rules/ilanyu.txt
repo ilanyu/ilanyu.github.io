@@ -86,3 +86,4 @@
 ||https://pos.baidu.com/
 ||http://dj.1688.com/
 ||https://dj.1688.com/
+||https://www.youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
