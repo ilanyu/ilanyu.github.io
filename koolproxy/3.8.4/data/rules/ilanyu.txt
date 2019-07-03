@@ -89,4 +89,5 @@
 ||https://www.youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 ||http://doubleclick.net
 ||https://doubleclick.net
-||https://www.pornhub.com##.sniperModeEngaged
+||https://www.pornhub.com$s@<li class="sniperModeEngaged">@<li class="sniperModeEngaged" style="display: none;">@
+||https://www.pornhub.com$s@<div class="* clearfix">@<div class="* clearfix" style="display: none;">@
