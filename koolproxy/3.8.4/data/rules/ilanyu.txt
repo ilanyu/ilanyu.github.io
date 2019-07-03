@@ -91,3 +91,4 @@
 ||https://doubleclick.net
 ||https://www.pornhub.com$s@<li class="sniperModeEngaged">@<li class="sniperModeEngaged" style="display: none;">@
 ||https://www.pornhub.com/view_video.php$s@<div class="* clearfix">@<div class="* clearfix" style="display: none;">@
+||https://www.pornhub.com/view_video.php###pb_template
