@@ -49,8 +49,8 @@
 !  ******************************************************************************************
 ||http://youku.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||https://youku.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
-||http://iqiyi.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
-||https://iqiyi.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
+||http://iqiyi.com/*$s@*</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script>*</head>@
+||https://iqiyi.com/*$s@*</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script>*</head>@
 ||http://le.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||https://le.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
 ||http://letv.com/*$s@</head>@<script src="https://ilanyu.gitee.io/web/www/web605/cn/cdn/video.js/video.js"></script></head>@
