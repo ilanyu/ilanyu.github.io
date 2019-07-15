@@ -93,3 +93,4 @@
 ||https://www.pornhub.com$s@<li class="sniperModeEngaged">@<li class="sniperModeEngaged" style="display: none !important; disiplay: none">@
 ||https://www.pornhub.com/view_video.php$s@<div class="* clearfix">@<div class="* clearfix" style="display: none !important; disiplay: none">@
 ||https://www.pornhub.com/view_video.php###pb_template
+||https://v2ex.com/*##.google_ads*
