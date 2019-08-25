@@ -6,6 +6,9 @@ var nothing = '<span style="display:block;float:left;width:5vw;height:5vw;font-s
 
 var apis = [
 	{
+		name:youku + "OK解析",url:"http://okjx.cc/?url=",title:"综合接口"
+	},
+	{
 		name:youku + "搜你妹",url:"http://www.sonimei.cn/?url=",title:"综合接口"
 	},
 	{
