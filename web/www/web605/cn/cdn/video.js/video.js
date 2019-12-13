@@ -4,6 +4,7 @@ var qq = '<span style="display:block;float:left;width:5vw;height:5vw;font-size:2
 
 var nothing = '<span style="display:block;float:left;width:5vw;height:5vw;font-size:2.5vw;color:#fff;line-height:5vw;text-align:center;border-radius:100%;box-shadow:0px 0px 3px #a9a9a9;background:transparent;margin:3.78vw 2.1vw;">综</span>'
 
+/**
 var apis = [
 	{
 		name:youku + "OK解析",url:"http://okjx.cc/?url=",title:"综合接口"
@@ -39,6 +40,14 @@ var apis = [
 		name:nothing + "影视解析",url:"https://chinese-elements.com/static/v.html?zwx=",title:"综合，多线路"
 	}
 ];
+*/
+
+var apis = [
+	{
+		name:youku + "玩的嗨",url:"http://tv.wandhi.com/go.html?url=",title:"综合接口"
+	}
+];
+
 //添加链接
 function createSelect (apis) {
 	var myul = document.createElement("ul");
