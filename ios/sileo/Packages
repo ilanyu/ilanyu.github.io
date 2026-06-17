@@ -1,0 +1,32 @@
+Package: com.example.securebypass
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: yu
+Installed-Size: 172
+Depends: firmware (>= 14.0), ellekit
+Filename: ./debs/com.example.securebypass_0.0.2_iphoneos-arm64.deb
+Size: 16238
+MD5sum: fee77b564e467302a4977e1bc4fff3cd
+SHA1: cbb50ed2a8c171eee99d8498c3c57382c851d3f5
+SHA256: 9590473cf4d71869cf7f5d4b45e0b7b68f631cce0f56d487a9ccc16bb88cb7c0
+Section: Tweaks
+Description: Hide jailbreak and disable screen-capture detection / secure text entry for apps selected in SecureBypassSettings
+Author: yu
+Name: SecureBypass
+
+Package: com.example.securebypasssettings
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: yu
+Installed-Size: 384
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.example.securebypasssettings_0.0.2_iphoneos-arm64.deb
+Size: 231140
+MD5sum: d951aef2d07a3073b17812a4a74040ed
+SHA1: 0f96f214bbcf3cc13654a719af79e3ebd9042d05
+SHA256: 12a4c3d5a6a9aa77bb366c48bf076a2357b1f2ddf5ac74be335a66c5175096a6
+Section: Utilities
+Description: Settings app for SecureBypass
+Author: yu
+Name: SecureBypassSettings
+

@@ -1,0 +1,8 @@
+Origin: 测试插件源
+Label: MyRepo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: 这是我自己制作的 Sileo 插件源！
