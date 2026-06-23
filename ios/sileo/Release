@@ -1,8 +1,24 @@
-Origin: 测试插件源
-Label: MyRepo
+Origin: yu Repo
+Label: yu Repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: 这是我自己制作的 Sileo 插件源！
+Description: yu Sileo repository
+Date: Tue, 23 Jun 2026 10:33:15 GMT
+MD5Sum:
+ 74fa8a05a0faa31e74a194b0308fdb3c 1063 Packages
+ 50c4a1c557cde84c8913924f6314cc02 618 Packages.bz2
+ fd2788733f5ddfd6ac6070d8f601ac32 556 Packages.gz
+ 5476454a99afb1b6bab19bec6c9dbaf0 620 Packages.xz
+SHA1:
+ 0e4439bce75cca91e5f78b885dd6e3238da2e2fe 1063 Packages
+ 6ebd4c140a18bf84b1eb8392d9c6c1379f6ba1a9 618 Packages.bz2
+ ff423b33f9dde51588d8636beb063e8bb2c483d6 556 Packages.gz
+ f3bb7d389148a0765b8c6715186797012e79eb60 620 Packages.xz
+SHA256:
+ 5b4396d46490e81d22f4318e215eb6cfefc8dd484ffd5b4ab1c26410124bbe98 1063 Packages
+ 099411ba3a2a6c1b4a6cdbc4f8805b02cebd08246fccc022dc65fbc37e99203f 618 Packages.bz2
+ 39c57dc32619b0b908f0ae5bc84d073bb8b92801a5239119a840d856d702f2b8 556 Packages.gz
+ e39b1945717266f766952f42139aad4ec2383b68c23888e478bc8b7cd793a81a 620 Packages.xz
